@@ -1,0 +1,50 @@
+package fisglobal;
+
+//abstract classes are classes that contains at least 1 abstract method.
+
+abstract class AbstractClass{
+	
+	public abstract void payment();
+	public abstract void order();
+	public abstract void delivery();
+	
+	public void demand()
+	{
+		System.out.println("we need supplies.");
+	}
+}
+
+class Groceries extends AbstractClass{
+	
+	public void order() {
+		System.out.println("Place order for groceries.");
+	}
+
+	public void payment() {
+		System.out.println("Payment is done.");	
+	}
+
+	public void delivery() {
+		System.out.println("Items will be delivered in a day.");
+	}
+	
+}
+
+
+public class AbstractKeyword {
+
+	
+	public static void delivered()
+	{
+		System.out.println("All items are delivered.");
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AbstractKeyword ac= new AbstractKeyword();
+		AbstractKeyword.delivered();
+	}
+
+}

@@ -1,0 +1,48 @@
+package fisglobal;
+
+interface AbstractClass{ // interface
+	
+	public abstract void order(); // abstract method
+	public abstract void delivery(); // abstract method
+}
+
+class Groceries implements AbstractClass{
+	
+	public void order() {
+		System.out.println("Place order for groceries.");
+	}
+
+	public void delivery() {
+		System.out.println("Items will be delivered in a day.");
+	}
+	
+}
+
+
+class Furniture implements AbstractClass{
+	
+	public void order() {
+		System.out.println("Place order for Furniture required.");
+	}
+
+	public void delivery() {
+		System.out.println("Items will be delivered in a 4-5 day.");
+	}
+	
+}
+
+public class InterfaceExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Furniture f=new Furniture();
+		f.order();
+		f.delivery();
+		
+		Groceries g =new Groceries();
+		g.order();
+		g.delivery();
+	}
+
+}
+

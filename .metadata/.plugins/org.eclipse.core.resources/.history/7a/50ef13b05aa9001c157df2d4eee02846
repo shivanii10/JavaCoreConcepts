@@ -1,0 +1,19 @@
+package fisglobal;
+
+
+class Final
+{
+	final int x=100;  //constant
+	//x=90; this will generate an error.
+}
+
+
+public class FinalKeyword {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

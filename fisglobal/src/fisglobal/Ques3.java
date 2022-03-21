@@ -21,6 +21,7 @@ public class Ques3 {
 			nums[i]=a;
 		}
 		int sum=0;
+		sc.close();
 		for(int i=0;i<n;i++)
 		{ 
 			if(nums[i]%2==0)

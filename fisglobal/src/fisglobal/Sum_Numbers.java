@@ -11,6 +11,7 @@ public class Sum_Numbers {
 		System.out.println("Enter a number");
 		b=sc.nextFloat();
 		c=a+b;
+		sc.close();
 		System.out.println("Sum : "+c);
 	}
 }

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;fisglobal.AbstractClasses&apos; to &apos;AbstractKeyword&apos;&#x0D;&#x0A;- Original project: &apos;fisglobal&apos;&#x0D;&#x0A;- Original element: &apos;fisglobal.AbstractClasses&apos;&#x0D;&#x0A;- Renamed element: &apos;fisglobal.AbstractKeyword&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AbstractClasses&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;fisglobal{AbstractClasses.java[AbstractClasses" matchStrategy="1" name="AbstractKeyword" qualified="false" references="true" similarDeclarations="true" stamp="1647891183037" textual="false" version="1.0"/>
+</session>

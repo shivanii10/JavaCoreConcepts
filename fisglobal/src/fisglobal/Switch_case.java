@@ -9,6 +9,7 @@ public class Switch_case {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		a=sc.nextInt();
+		sc.close();
 		switch (a)
 		{
 		case 18: System.out.println("eligible to vote");
@@ -31,7 +32,7 @@ public class Switch_case {
 		break;
 		default: System.out.println("not in list");
 		}
-
+		
 	}
 
 }

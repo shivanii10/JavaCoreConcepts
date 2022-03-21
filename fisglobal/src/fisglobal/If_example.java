@@ -10,6 +10,7 @@ public class If_example {
 		int a,b;
 		a =sc.nextInt();
 		b =sc.nextInt();
+		sc.close();
 		if (a>b) System.out.println("a is bigger");
 		else System.out.println("b is bigger");
 	}

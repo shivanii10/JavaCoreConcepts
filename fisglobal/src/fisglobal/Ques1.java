@@ -15,6 +15,7 @@ public class Ques1 {
 		System.out.println("enter number of elements: ");
 		int n=sc.nextInt();
 		int[] nums=new int[n]; // declaring an array of size n
+
 		System.out.println("enter "+n+" number : ");
 		for(int i=0;i<n;i++)
 		{ 		
@@ -24,6 +25,7 @@ public class Ques1 {
 		System.out.println("enter a number to check the larger ones and get sum : ");
 		int larger=sc.nextInt();
 		int sum=0;
+		sc.close();
 		for(int i=0;i<n;i++)
 		{ 
 			if(nums[i]>larger)
