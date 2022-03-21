@@ -5,4 +5,3 @@ Static keyword:
 -method : static method doesn't need object for it's execution. 
           example : public static void main()
           It is used to mainly access methods independent of object creation.
-          
