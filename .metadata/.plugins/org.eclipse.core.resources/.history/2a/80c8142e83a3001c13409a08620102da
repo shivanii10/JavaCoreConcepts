@@ -1,0 +1,5 @@
+Static keyword:
+
+-variable : the object will share common space.
+-method : 
+-block : it is executed whenever .class file is created. 

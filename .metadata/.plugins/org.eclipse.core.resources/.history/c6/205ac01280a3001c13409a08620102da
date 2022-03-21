@@ -1,0 +1,22 @@
+package fisglobal;
+
+public class StaticAndNonStaticExecution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticAndNonStaticBlock se1= new StaticAndNonStaticBlock() ;
+		se1.name="ss";
+		se1.college="JU";
+		StaticAndNonStaticBlock se2= new StaticAndNonStaticBlock() ;
+		se2.name="sk";
+		StaticAndNonStaticBlock se3= new StaticAndNonStaticBlock() ;
+		se3.college="JNU";
+		se1.displayData();
+		se2.displayData();
+		se3.displayData();
+		// static statement is present only once as only once a .class file 
+		//can be created for a java program where as non-static is block is 
+		// executed after creation of each object.
+	}
+
+}

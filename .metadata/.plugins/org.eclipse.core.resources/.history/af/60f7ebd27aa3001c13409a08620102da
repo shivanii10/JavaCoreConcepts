@@ -1,0 +1,11 @@
+package fisglobal;
+
+public class StaticAndNonStaticExecution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticAndNonStaticBlock se= new StaticAndNonStaticBlock() ;
+		
+	}
+
+}

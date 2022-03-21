@@ -1,0 +1,32 @@
+package fisglobal;
+
+public class Constructor {
+	int age;
+
+	//It is a STATIC block
+		static
+		{
+			System.out.println("Static Block");
+		}
+		
+		//It is a NON-STATIC block
+		{
+			System.out.println("Non Static Block");	
+		}
+		
+		Constructor()
+		{
+			age=17;
+			System.out.println("Constructor ...");
+		}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Constructor c= new Constructor();
+		System.out.println("Order of execution: ");
+		System.out.println("Static Block -> Non-Static Block -> Costructor");
+		System.out.println(age);
+	}
+
+
+}

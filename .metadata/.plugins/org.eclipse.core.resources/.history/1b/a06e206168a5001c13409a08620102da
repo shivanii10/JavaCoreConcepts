@@ -1,0 +1,7 @@
+package fisglobal;
+
+public class Employee_address {
+	String Street_no;
+	String House;
+
+}

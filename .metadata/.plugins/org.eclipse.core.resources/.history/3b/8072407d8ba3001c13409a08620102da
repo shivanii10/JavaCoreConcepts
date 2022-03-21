@@ -1,0 +1,27 @@
+package fisglobal;
+
+public class Constructor {
+
+	//It is a STATIC block
+		static
+		{
+			System.out.println("Static Block");
+			System.out.println(" ");
+		}
+		
+		//It is a NON-STATIC block
+		{
+			System.out.println("Non Static Block");	
+		}
+		
+		Constructor()
+		{
+			System.out.println("Constructor ...")
+		}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

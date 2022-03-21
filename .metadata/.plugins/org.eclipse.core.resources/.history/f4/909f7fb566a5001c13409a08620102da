@@ -1,0 +1,14 @@
+package fisglobal;
+
+public class Employee_data {
+	int phone_no;
+	String name;
+	
+	Employee_data(phone_no,name)
+	{
+		this.phone_no=phone_no;
+		this.name=name;
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+package fisglobal;
+
+public class StaticAndNonStaticBlock {
+	
+	int roll_no;
+	int marks;
+	String name;
+
+	static
+	{
+		System.out.println("This is a Static Block");
+		System.out.println("It is executed whenever .class file is created.");
+		
+	}
+	
+	{
+		System.out.println("This is a Non Static Block");
+		System.out.println("It is executed whenever object of a class is created.");
+	}
+}

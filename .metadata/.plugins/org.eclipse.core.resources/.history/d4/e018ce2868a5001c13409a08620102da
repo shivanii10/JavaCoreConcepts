@@ -1,0 +1,11 @@
+package fisglobal;
+
+public class Employee {
+	Employee_data ed; // has-a relationship
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package fisglobal;
+
+public class Employee_data {
+	int phone_no;
+	String name;
+
+}

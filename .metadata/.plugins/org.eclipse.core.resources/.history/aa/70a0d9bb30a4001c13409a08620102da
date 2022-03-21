@@ -1,0 +1,19 @@
+Constructor : It is a special method having same name as class.
+			  It does't have any return type.
+			  It will automatically be created when an object is created.
+			  Types:
+			  -Default Constructor or zero parameterized Constructor.
+			  	(user or system)
+			  -Parameterized Constructor
+			   (user)
+			  -Copy Constructor
+			   (user)
+Constructor Overloading : A class having more than 1 constructor.
+						- Student(String name){}
+			 			- Student(String name, int age){}
+			 			
+If we give same name to class variable and method variable. 
+higher preference is of method variable, so it can't distinguish age = age, doesn't know which
+which one is class one and which one is method one, because of preference method variable name has the value but while printing the values it takes value from class variable which is empty that is why it is displaying null.
+		
+			

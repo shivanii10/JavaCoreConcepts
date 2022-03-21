@@ -1,0 +1,4 @@
+Relationships: 
+Is-a : using extend
+Has-a : using object as a data member
+Uses-a : passing object as a parameter to the function in the class.
