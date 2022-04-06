@@ -2,6 +2,11 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Administrator\Downloads\restaurantService"/>
+			<item value="C:\Users\Administrator\Downloads\commentsservice"/>
+			<item value="C:\Users\Administrator\Downloads\postservice"/>
+			<item value="C:\Users\Administrator\Downloads\fisrmployeecrud"/>
+			<item value="C:\Users\Administrator\Downloads\SpringDemo"/>
 			<item value="C:\Users\Administrator\Downloads\demo"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -15,6 +20,15 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Administrator\eclipse-workspace\jaxrsapplication\pom.xml"/>
+			<item value="C:\Users\Administrator\eclipse-workspace\jaxrsapplication\src\main\webapp\index.jsp"/>
+			<item value="C:\Users\Administrator\eclipse-workspace\jaxrsapplication\src\main\java\com\example\jaxrs\jaxrsapplication\MyResource.java"/>
+			<item value="C:\Users\Administrator\eclipse-workspace\jaxrsforms111"/>
+			<item value="C:\Users\Administrator\eclipse-workspace\jaxrsapplication"/>
+			<item value="C:\Users\Administrator\eclipse-workspace\jaxproject"/>
+			<item value="C:\Users\Administrator\eclipse-workspace\springmvc"/>
+			<item value="C:\Users\Administrator\eclipse-workspace\jaxrsapp\src"/>
+			<item value="C:\Users\Administrator\eclipse-workspace\Servlet"/>
 			<item value="C:\Users\Administrator\eclipse-workspace\ServletApplication\src\main\java\ServletApplication\FirsrPage.java"/>
 			<item value="C:\Users\Administrator\eclipse-workspace\PostJdbcService"/>
 			<item value="C:\Users\Administrator\eclipse-workspace\jdbc_example\src\main\java\jdbc_example\ReadData.java"/>
@@ -41,13 +55,20 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.springmvc.mvc.springmvc"/>
+			<item value="com.examples.jaxrs.employeejax"/>
+			<item value="com.examples.uxjaxrs.uxjaxrs"/>
+			<item value="com.examples.jaxrs.jaxy"/>
+			<item value="com.examples.jaxrs.trial"/>
 		</list>
 		<list key="groupId">
-			<item value="com.springmvc.mvc"/>
+			<item value="com.examples.jaxrs"/>
+			<item value="com.examples.uxjaxrs"/>
 		</list>
 		<list key="artifactId">
-			<item value="springmvc"/>
+			<item value="employeejax"/>
+			<item value="uxjaxrs"/>
+			<item value="jaxy"/>
+			<item value="trial"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
